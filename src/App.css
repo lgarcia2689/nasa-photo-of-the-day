@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -35,4 +36,50 @@
   to {
     transform: rotate(360deg);
   }
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  border-radius: 30px;
+
+}
+.imgContainer{
+  
+  width: 600px;        
+  border: 5px solid black;
+  border-radius: 30px;
+}
+.dcContainer{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.date{
+margin-right: 10px;
+width: 250px;
+text-decoration: solid;
+font-size: large;
+font-weight: bold;
+
+
+}
+.copyright{
+  margin-left: 10px;
+  width: 250px;
+  font-size: large;
+  font-weight: bold;
+  
+}
+.explanation{
+  /* border: 5px solid black; */
+  margin-top: 20px;
+  width: 600px;
 }
